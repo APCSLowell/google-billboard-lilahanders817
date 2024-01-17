@@ -5,10 +5,10 @@ public class GoogleBillboard {
 	public static void main(final String[] args) {
 		String str = new String();
 		for(int i = 0; i<11; i++){
-			str = e.substring(i, i+10));
-			double = Double.parseDouble(str);
-			if(isPrime == true){
-				System.out.println(str+"is prime.");
+			str = e.substring(i, i+10);
+			double a = Double.parseDouble(str);
+			if(isPrime(a) == true){
+				System.out.println(a+"is prime.");
 				break;
 			}
 		}
