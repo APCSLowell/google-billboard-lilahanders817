@@ -14,10 +14,10 @@ public class GoogleBillboard {
 		}
 		
 	}
-	
-
+GoogleBillboard g = new GoogleBillboard();	
+return g;
 	//Finish this function
-	public static boolean isPrime(double d){
+	public boolean isPrime(double d){
 		if(d<2){
 		    return false;
 		  }
@@ -30,4 +30,5 @@ public class GoogleBillboard {
 	}
 
 }
+
 
