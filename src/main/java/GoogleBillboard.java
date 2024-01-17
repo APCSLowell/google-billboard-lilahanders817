@@ -14,8 +14,6 @@ public class GoogleBillboard {
 		}
 		
 	}
-GoogleBillboard g = new GoogleBillboard();	
-return g;
 	//Finish this function
 	public boolean isPrime(double d){
 		if(d<2){
