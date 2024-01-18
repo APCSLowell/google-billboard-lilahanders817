@@ -6,7 +6,7 @@ public class GoogleBillboard {
 		for(int i = 2; i < (e.length() - 10); i++){
 			double a = Double.parseDouble(e.substring(i, i+10));
 			if(isPrime(a) == true){
-				System.out.println(a+" is prime.");
+				System.out.println(a);
 				break;
 			}
 		}
